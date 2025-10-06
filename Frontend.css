@@ -25,6 +25,9 @@
   font-size: 0.85rem;
   font-weight: lighter;
 }
+.logo-imgg{
+  margin-left: 30px;
+}
 
 .site-nav{
   width: 50%;
@@ -458,27 +461,31 @@
   .logo {
     margin-bottom: 10px;
   }
+  .logo-imgg{
+    margin-left: 0;
+  }
   .site-nav{
-    margin-left: 30px;
+    margin: 0;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
   }
   .quote {
     margin-top: 4%;
-    margin-left: 10%;
-    
+    margin-left: 2px;
   }
   .img-girl {
     position: absolute;
+    display: block;
     left: 0px;
-    top: 50%;
-    max-width: min-content;
-    height: auto;
-    background-size: contain;
+    top: 60%;
+    height: 50px;
+    max-width: 30px;
+    object-fit: cover;
   }
   .cont {
     position: static;
+    font-size: 1rem;
     margin: 1rem 5%;
     max-width: 90%;
   }
@@ -492,15 +499,22 @@
     top: 500px;
   }
   .bb {
-    flex-direction: row;
+    font-size: 0.8rem;
+    display: flex;
     justify-content: center;
-    top: 470px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 490px;
+    max-width: 15rem;
+    margin: 0;
   }
+
   .content{
     display: flex;
     flex-wrap: wrap;
   }
-    .img1{
+  .img1{
     width: 100%;
     height: 35%;
   }
@@ -515,5 +529,8 @@
   .img4{
     width: 100%;
     height: 35%;
+  }
+  .text1{
+    font-size:  0.75rem;
   }
 }
