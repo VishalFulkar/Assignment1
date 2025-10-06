@@ -386,7 +386,7 @@
 
 
 
-/* Mobile / small screens */
+/* Mobile */
 @media (max-width: 600px) {
   .inner-header {
     flex-direction: column;
@@ -428,7 +428,7 @@
   }
   .bb {
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     top: 470px;
   }
   .content{
@@ -452,7 +452,7 @@
     height: 35%;
   }
 }
-
+ /* small screens */
 @media (max-width: 400px) {
   .inner-header {
     flex-direction: column;
